@@ -1,0 +1,76 @@
+section#formularz {
+	top: 0;
+	background-image: url(../img/background.png);
+	height: 80vh;
+	background-position: top;
+	background-size: cover;
+	
+	
+	div.container {
+		display: inline-block;
+		position: absolute;
+		left:900px;
+		top:100px;
+		text-align: left;
+		font-size: 1.2em;
+		font-family: $main-font;
+		font-weight: 700;
+		
+		
+		
+		div.tekst {
+			color: #fff;
+			margin-left:10px;
+			
+			
+			span {
+				color: $yellow-color;
+			}
+		}
+		.srodek-formularza{
+			background-color: $main-color;
+			width:350px;
+			height:53vh;
+			
+			p{
+				color: #fff;
+				margin-left:15px;
+				padding-top:30px;
+			}
+			form{
+				text-align: center;
+				
+				input{
+					width: 90%;
+					height: 5vh;
+					margin-bottom: 10px;
+					padding-left:10px;
+				}
+				
+				textarea{
+					width: 90%;
+					padding-left:10px;
+				}
+				
+				button{
+					position: absolute;
+					left:17px;
+					bottom:15px;
+					width: 120px;
+					height: 50px;
+					color:#001;
+					font-size: 1em;
+					font-weight: 700;
+					background-color: $yellow-color;
+					border: 1px solid #001;
+					transition: all .3s;
+					
+					&:hover{
+						background-color: #fff;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}

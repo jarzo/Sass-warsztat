@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #001d8a;
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+header, section {
+  width: 100%; }
+
+.col-1-2 {
+  width: 50%;
+  float: left; }
+
+header {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 20px 0;
+  z-index: 10; }
+  header .main-logo {
+    display: inline-block;
+    float: left;
+    margin-left: 30px; }
+    header .main-logo h1 {
+      display: inline-block;
+      margin: 0; }
+    header .main-logo .fa {
+      font-size: 2em;
+      float: left;
+      margin-right: 10px;
+      color: #ecd407;
+      line-height: 43px; }
+  header .header-contact {
+    display: inline-block;
+    float: right;
+    width: 300px; }
+    header .header-contact .fa {
+      font-size: 2em;
+      float: left;
+      margin-right: 10px;
+      line-height: 45px; }
+    header .header-contact span {
+      display: block; }
+      header .header-contact span.call {
+        font-size: 0.8em; }
+      header .header-contact span.phone {
+        font-size: 1.2em; }
+
+section#formularz {
+  top: 0;
+  background-image: url(../img/background.png);
+  height: 80vh;
+  background-position: top;
+  background-size: cover; }
+  section#formularz div.container {
+    display: inline-block;
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700; }
+    section#formularz div.container div.tekst {
+      color: #fff;
+      margin-left: 10px; }
+      section#formularz div.container div.tekst span {
+        color: #ecd407; }
+    section#formularz div.container .srodek-formularza {
+      background-color: #001d8a;
+      width: 350px;
+      height: 53vh; }
+      section#formularz div.container .srodek-formularza p {
+        color: #fff;
+        margin-left: 15px;
+        padding-top: 30px; }
+      section#formularz div.container .srodek-formularza form {
+        text-align: center; }
+        section#formularz div.container .srodek-formularza form input {
+          width: 90%;
+          height: 5vh;
+          margin-bottom: 10px;
+          padding-left: 10px; }
+        section#formularz div.container .srodek-formularza form textarea {
+          width: 90%;
+          padding-left: 10px; }
+        section#formularz div.container .srodek-formularza form button {
+          position: absolute;
+          left: 17px;
+          bottom: 15px;
+          width: 120px;
+          height: 50px;
+          color: #001;
+          font-size: 1em;
+          font-weight: 700;
+          background-color: #ecd407;
+          border: 1px solid #001;
+          transition: all .3s; }
+          section#formularz div.container .srodek-formularza form button:hover {
+            background-color: #fff;
+            cursor: pointer; }
+
+footer {
+  background-color: #292929;
+  padding: 50px 0;
+  color: #fff; }
+  footer .phone-footer {
+    text-align: center;
+    margin-bottom: 30px; }
+    footer .phone-footer .fa {
+      background-color: #f4b939;
+      color: #000;
+      height: 50px;
+      width: 50px;
+      font-size: 25px;
+      text-align: center;
+      line-height: 50px;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px; }
+    footer .phone-footer .container1 {
+      margin-left: 25px; }
+      footer .phone-footer .container1 p {
+        text-align: center;
+        font-size: 0.8em;
+        margin-left: 20px; }
