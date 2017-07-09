@@ -123,9 +123,7 @@ footer {
       display: block;
       margin: auto;
       margin-bottom: 10px; }
-    footer .phone-footer .container1 {
-      margin-left: 25px; }
-      footer .phone-footer .container1 p {
-        text-align: center;
-        font-size: 0.8em;
-        margin-left: 20px; }
+    footer .phone-footer p {
+      text-align: center;
+      font-size: 0.8em;
+      margin-left: 20px; }
